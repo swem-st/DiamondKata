@@ -13,7 +13,6 @@ The Diamond Kata is a .NET 6 console application designed to generate a diamond 
 - **Open/Closed Principle (OCP):** The design is extensible without modifying existing code. For instance, new methods can be added to `CharExtension` without changing its existing methods.
 - **Liskov Substitution Principle (LSP):** Subtypes can be substituted for their base types without affecting the correctness of the program. This is evident in the use of extension methods, which can be applied to any character or integer.
 - **Interface Segregation Principle (ISP):** Clients should not be forced to depend on interfaces they do not use. This is why we have separate methods for different functionalities in `CharExtension`.
-- **Dependency Inversion Principle (DIP):** High-level modules depend on abstractions, not on low-level modules. This is demonstrated by the use of extension methods, which abstract the operations on characters and integers.
 
 ## Test-Driven Development (TDD)
 
